@@ -1,0 +1,212 @@
+/* --- body --- */
+
+html,
+body
+{
+    font-size: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* --- h1 ---*/
+
+h1
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0.9em 0.6em;
+    background-color: #00aeff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* --- header --- */
+
+header
+{
+    border-bottom: 1px solid #d2d2d2;
+}
+
+header span
+{
+    font-size: 1.4em;
+    color: #00aeff;
+    font-style: italic;
+    width: 100%;
+    text-align: right;
+    padding: 1.5em 1.8em;
+    display: inline-block;
+}
+
+/* --- article --- */
+
+article
+{
+    padding-left: 0;
+    padding-top: 1em;
+}
+
+article section
+{
+    background: #f6f6f6;
+    padding: 1.5em;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+    border: 1px solid #d2d2d2;
+}
+
+article section h2
+{
+    font-size: 1.7em;
+    color: #00aeff;
+    margin-top: 0.3em;
+    margin-right: 0.7em;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+}
+
+article section img
+{
+    border: 1px solid #d2d2d2;
+    margin-bottom: 1.5em;
+    width: 100%;
+    height: auto;
+}
+
+article section p,
+article section ul
+{
+    font-family: 'Lato', sans-serif;
+    color: #9a9da0;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+article section ul
+{
+    padding-left: 2em;
+}
+
+article section li
+{
+    font-size: 0.9em;
+}
+
+article section:before,
+article section:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
+}
+
+article section:after
+{
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+/* --- section links --- */
+
+section a
+{
+    transition: 0.5s all ease;
+    margin-right: 1em;
+    text-indent: 1.3em;
+    color: #626465;
+    font-weight: 400;
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+section a:hover,
+section a:active,
+section a:focus
+{
+    color: #00aeff;
+    text-decoration: none;
+}
+
+article section a
+{
+    background: url(../images/link.png) no-repeat 0 0.3em;
+    text-transform: uppercase;
+}
+
+aside section a
+{
+    background: url(../images/arrow.png) no-repeat 0 0.3em;
+    color: #8a8a8a;
+}
+
+/* --- aside --- */
+
+aside
+{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+aside section
+{
+    margin-bottom: 2em;
+}
+
+aside section h3
+{
+    color: #4a5054;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+aside section p
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #a0a0a0;
+    font-size: 1.1em;
+}
+
+aside section ul
+{
+    padding-top: 0.6em;
+    padding-left: 1.4em;
+}
+
+aside section li
+{
+    list-style: none;
+    padding-bottom: 0.3em;
+}
+
+/* --- footer --- */
+
+footer
+{
+    background: #f6f6f6;
+    border-top: 1px solid #d2d2d2;
+    padding: 2em 0;
+}
+
+footer p
+{
+    font-family: 'Lato', sans-serif;
+    color: #989898;
+    font-size: 0.9em;
+}
