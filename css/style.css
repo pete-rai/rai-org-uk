@@ -176,6 +176,11 @@ aside section h3
     text-transform: uppercase;
 }
 
+aside section h3.hilight
+{
+    color: #cc0000;
+}
+
 aside section p
 {
     font-family: 'Open Sans Condensed', sans-serif;
