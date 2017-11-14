@@ -31,7 +31,6 @@ header span
 {
     font-size: 1.4em;
     color: #00aeff;
-    font-style: italic;
     width: 100%;
     text-align: right;
     padding: 1.1em 1.8em;
@@ -178,7 +177,7 @@ aside section h3
 
 aside section h3.hilight
 {
-    color: #cc0000;
+    color: #990000;
 }
 
 aside section p
