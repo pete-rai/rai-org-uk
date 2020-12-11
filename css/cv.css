@@ -1,0 +1,179 @@
+
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+}
+
+body
+{
+    font-family: 'Roboto', Helvetica,  sans-serif;
+    line-height: 1.5em;
+    background: url(images/back.jpg);
+    background-repeat: repeat;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+h1
+{
+    font-size: 2.75em;
+    padding: 10px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: bolder;
+    border-bottom: 1px solid #777;
+}
+
+h2
+{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+h3
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+span.role
+{
+    font-family: Georgia, Serif;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: italic;
+    color: #888;
+    padding-left: 6px;
+}
+
+ul.contact
+{
+    font-size: 0.95em;
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+}
+
+ul.contact li
+{
+    display: inline;
+    padding-right: 18px;
+}
+
+ul.contact li:last-of-type
+{
+    padding-right: 0;
+}
+
+i.fas
+{
+    padding-right: 7px;
+}
+
+a,
+a:hover,
+a:visited,
+a:active
+{
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover
+{
+    color: indianred;
+}
+
+.content a
+{
+    text-decoration: underline;
+}
+
+.overview
+{
+    font-family: Georgia, Serif;
+    font-style: italic;
+    color: #777;
+    width: 65%;
+}
+
+.pic
+{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border: 1px solid #bbb;
+    width: 250px;
+    transform: rotate(8deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 6px 6px rgba(0,0,0,0.25);
+}
+
+.context
+{
+    padding-top: 19px;
+    text-align: right;
+    font-style: italic;
+    color: #666;
+}
+
+.content
+{
+    border-width: 1px;
+    border-style: solid;
+    border-right: 0;
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #333, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+@media only screen and (max-width : 767px)
+{
+    .overview
+    {
+        width: 100%;
+    }
+
+    .overview p:first-of-type
+    {
+        margin-top: 10px;
+    }
+
+    .pic
+    {
+        width: 100px;
+        top: 20px;
+        right: 12px;
+    }
+
+    a.web
+    {
+        display: none;
+    }
+}
+
+/* --- mobile portrait --- */
+
+@media only screen and (max-width : 480px)
+{
+    .overview p:first-of-type
+    {
+        margin-top: 0px;
+    }
+
+    .pic
+    {
+        width: 80px;
+        top: 9px;
+        right: 5px;
+    }
+
+    ul.contact
+    {
+        font-size: 0.85em;
+    }
+
+    ul.contact li
+    {
+        padding-right: 8px;
+    }
+}
