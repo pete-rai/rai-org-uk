@@ -4,8 +4,7 @@
 html,
 body
 {
-    font-size: 100%;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 /* --- h1 ---*/
@@ -63,8 +62,6 @@ article section h2
     margin-top: 0.2em;
     margin-right: 0.7em;
     display: inline-block;
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 0.8em;
@@ -99,9 +96,7 @@ article section img
 article section p,
 article section ul
 {
-    font-family: 'Lato', sans-serif;
-    color: #9a9da0;
-    font-size: 1em;
+    color: #666;
     line-height: 1.5em;
     margin-bottom: 1em;
 }
@@ -148,7 +143,6 @@ section a
     text-indent: 1.3em;
     color: #626465;
     font-weight: 400;
-    font-size: 1em;
     display: inline-block;
     text-decoration: none;
 }
@@ -163,13 +157,13 @@ section a:focus
 
 article section a
 {
-    background: url(../images/link.png) no-repeat 0 0.3em;
+    background: url(../images/link.png) no-repeat 0 0.2em;
     text-transform: uppercase;
 }
 
 aside section a
 {
-    background: url(../images/arrow.png) no-repeat 0 0.3em;
+    background: url(../images/arrow.png) no-repeat 0 0.2em;
     color: #8a8a8a;
 }
 
@@ -189,7 +183,7 @@ aside section
 aside section h3
 {
     color: #4a5054;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 0.5em;
     text-transform: uppercase;
 }
@@ -201,9 +195,9 @@ aside section h3.hilight
 
 aside section p
 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #a0a0a0;
-    font-size: 1.1em;
+    color: #777;
+    text-align: justify;
+    xfont-size: 1.1em;
 }
 
 aside section ul
@@ -229,7 +223,5 @@ footer
 
 footer p
 {
-    font-family: 'Lato', sans-serif;
-    color: #989898;
-    font-size: 0.9em;
+    color: #888;
 }
