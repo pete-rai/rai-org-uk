@@ -136,7 +136,7 @@ article section:after
 
 /* --- section links --- */
 
-section a
+section a.option
 {
     transition: 0.5s all ease;
     margin-right: 1em;
@@ -147,21 +147,21 @@ section a
     text-decoration: none;
 }
 
-section a:hover,
-section a:active,
-section a:focus
+section a.option:hover,
+section a.option:active,
+section a.option:focus
 {
     color: #17a2b8;
     text-decoration: none;
 }
 
-article section a
+article section a.option
 {
     background: url(../images/link.png) no-repeat 0 0.2em;
     text-transform: uppercase;
 }
 
-aside section a
+aside section a.option
 {
     background: url(../images/arrow.png) no-repeat 0 0.2em;
     color: #8a8a8a;
